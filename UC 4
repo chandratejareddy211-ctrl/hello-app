@@ -1,0 +1,11 @@
+public class HelloAppUC4 {
+    public static void main(String[] args) {
+        String result;
+        if (args.length > 0) {
+            result = String.join(", ", args);
+        } else {
+            result = "Prgna";
+        }
+        System.out.println("Salam valekum, " + result + "!");
+    }
+}
